@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.reginald.tasklogger.sample" >
+
+
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+
+    <!-- change/add your name of application name to com.reginald.tasklogger.TaskLoggerApplication -->
+    <application
+        android:name="com.reginald.tasklogger.TaskLoggerApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="TaskLogger Demo"
+        android:theme="@style/Theme.AppCompat.Light"
+        >
+
+        <!-- TaskLogger service will be running in a separate process. -->
+        <service
+            android:name="com.reginald.tasklogger.TaskLoggerService"
+            android:process=":tasklogger" />
+
+        <!--
+        you can try changing process, launchMode, taskAffinity, finishOnTaskLaunch, noHistory .....
+        to see different output with TaskLogger in Logcat.
+        -->
+        <activity
+            android:name=".MainActivity"
+            android:label="TaskLogger Demo" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ActivityA"
+            android:label="A"
+            android:process=":activityTest"
+            android:screenOrientation="portrait"
+            android:taskAffinity=".task1" >
+        </activity>
+        <activity
+            android:name=".ActivityB"
+            android:label="B"
+            android:launchMode="standard"
+            android:process=":activityTest"
+            android:screenOrientation="portrait"
+            android:taskAffinity=".task2" >
+        </activity>
+        <activity
+            android:name=".ActivityC"
+            android:label="C"
+            android:process=":activityTest"
+            android:screenOrientation="portrait"
+            android:taskAffinity=".task3" >
+        </activity>
+        <activity
+            android:name=".ActivityD"
+            android:label="D"
+            android:launchMode="standard"
+            android:process=":activityTest"
+            android:screenOrientation="portrait"
+            android:taskAffinity=".task4" >
+        </activity>
+
+    </application>
+
+</manifest>

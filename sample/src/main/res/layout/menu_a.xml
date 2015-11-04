@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" A -> B flags: "
+            android:textColor="#1122aa"
+            />
+
+        <CheckBox
+            android:id="@+id/new_task_checkbox_ab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="NEW_TASK"
+            android:textColor="#1122aa"
+            />
+
+        <CheckBox
+            android:id="@+id/multi_task_checkbox_ab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="MULTI_TASK"
+            android:textColor="#1122aa"
+            />
+
+        <CheckBox
+            android:id="@+id/clear_top_checkbox_ab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="CLEAR_TOP"
+            android:textColor="#1122aa"
+            />
+
+        <CheckBox
+            android:id="@+id/clear_task_checkbox_ab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="CLEAR_TASK"
+            android:textColor="#1122aa"
+            />
+
+        <CheckBox
+            android:id="@+id/single_top_checkbox_ab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="SINGLE_TOP"
+            android:textColor="#1122aa"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" A -> C flags: "
+            android:textColor="#711133"
+            />
+
+        <CheckBox
+            android:id="@+id/new_task_checkbox_ac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="NEW_TASK"
+            android:textColor="#711133"
+            />
+
+        <CheckBox
+            android:id="@+id/multi_task_checkbox_ac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="MULTI_TASK"
+            android:textColor="#711133"
+            />
+
+        <CheckBox
+            android:id="@+id/clear_top_checkbox_ac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="CLEAR_TOP"
+            android:textColor="#711133"
+            />
+
+        <CheckBox
+            android:id="@+id/clear_task_checkbox_ac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="CLEAR_TASK"
+            android:textColor="#711133"
+            />
+
+        <CheckBox
+            android:id="@+id/single_top_checkbox_ac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="SINGLE_TOP"
+            android:textColor="#711133"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" A -> D flags: "
+            android:textColor="#711133"
+            />
+
+        <CheckBox
+            android:id="@+id/new_task_checkbox_ad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="NEW_TASK"
+            android:textColor="#711133"
+            />
+
+        <CheckBox
+            android:id="@+id/multi_task_checkbox_ad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="MULTI_TASK"
+            android:textColor="#711133"
+            />
+
+        <CheckBox
+            android:id="@+id/clear_top_checkbox_ad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="CLEAR_TOP"
+            android:textColor="#711133"
+            />
+
+        <CheckBox
+            android:id="@+id/clear_task_checkbox_ad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="CLEAR_TASK"
+            android:textColor="#711133"
+            />
+
+        <CheckBox
+            android:id="@+id/single_top_checkbox_ad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="SINGLE_TOP"
+            android:textColor="#711133"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
+
